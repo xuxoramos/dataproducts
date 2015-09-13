@@ -1,0 +1,100 @@
+97,Grand Theft Auto V,7.8
+96,Metal Gear Solid V: The Phantom Pain,7.6
+91,The Witcher 3: Wild Hunt,8.7
+89,Dark Souls II: Scholar of the First Sin,8.0
+88,Forza Motorsport 6,tbd
+88,FIFA 14,5.8
+88,Guacamelee! Super Turbo Championship Edition,6.9
+88,Minecraft: Xbox One Edition,6.7
+88,Ori and the Blind Forest,8.6
+87,Middle-earth: Shadow of Mordor,7.9
+86,Shovel Knight,7.1
+86,NBA 2K14,5.7
+86,DmC: Devil May Cry Definitive Edition,7.5
+86,Titanfall,6.3
+86,Diablo III: Ultimate Evil Edition,7.8
+86,Tomb Raider: Definitive Edition,7.2
+86,Forza Horizon 2,8.1
+86,Mortal Kombat X,7.2
+85,Batman: Arkham Knight,6.1
+85,Dragon Age: Inquisition,6.9
+85,Rare Replay,7.7
+85,Halo: The Master Chief Collection,7.2
+85,Madden NFL 16,6.8
+84,Metro Redux,8.1
+83,SteamWorld Dig,6.3
+82,Lovers in a Dangerous Spacetime,6.5
+82,Stealth Inc 2: A Game of Clones,6.0
+82,Child of Light,7.6
+82,Gears of War: Ultimate Edition,7.4
+82,Forza Horizon 2: Storm Island,7.3
+82,Geometry Wars 3: Dimensions,7.4
+82,FIFA 15,5.3
+82,Tales From The Borderlands: Episode One - Zer0 Sum,8.3
+82,NBA 2K15,6.1
+82,Far Cry 4,7.3
+82,Resident Evil HD Remaster,7.9
+81,Kalimba,7.7
+81,Call of Duty: Advanced Warfare,5.3
+81,Sunset Overdrive,7.6
+81,Project CARS,5.5
+81,Valiant Hearts: The Great War,7.8
+80,Super Time Force,6.6
+80,Game of Thrones: Episode Three - The Sword in the Darkness,7.6
+80,Trials Fusion,7.0
+80,Life is Strange: Episode 3 - Chaos Theory,8.4
+80,Game of Thrones: Episode One - Iron From Ice,7.9
+80,Borderlands: The Handsome Collection,7.8
+80,Super Mega Baseball: Extra Innings,6.5
+80,Hand of Fate,7.3
+80,Madden NFL 15,6.4
+80,Game of Thrones: Episode Four - Sons of Winter,7.4
+79,Forza Motorsport 5,5.8
+79,The Evil Within,7.3
+79,Wolfenstein: The New Order,7.8
+79,King's Quest Chapter 1: A Knight to Remember,7.6
+79,SMITE,7.4
+78,DG2: Defense Grid 2,6.9
+78,Alien: Isolation,7.8
+78,Disney Infinity 3.0 Edition,6.2
+78,Watch Dogs,5.7
+78,Skylanders Trap Team,6.9
+78,Call of Duty: Ghosts,4.2
+78,Dead Rising 3,6.7
+78,Pro Evolution Soccer 2015,7.2
+77,The Elder Scrolls Online: Tamriel Unlimited,8.6
+77,#IDARB,7.3
+77,Life is Strange: Episode 1 - Chrysalis,8.1
+77,Fantasia: Music Evolved,7.5
+77,Q.U.B.E. Director's Cut,tbd
+77,Peggle 2,7.2
+76,D4: Dark Dreams Don't Die,7.2
+76,Devil May Cry 4: Special Edition,8.2
+76,Strider,6.9
+76,Assassin's Creed IV: Black Flag - Freedom Cry,6.9
+76,Far Cry 4: Valley of the Yetis,8.5
+76,Dishonored: Definitive Edition,7.8
+76,Plants vs Zombies: Garden Warfare,7.4
+76,Metal Gear Solid V: Ground Zeroes,5.2
+76,Game of Thrones: Episode Two - The Lost Lords,7.7
+75,Wolfenstein: The Old Blood,8.1
+75,Need for Speed: Rivals,5.8
+75,Game of Thrones: Episode Five - A Nest of Vipers,6.8
+75,Broken Sword 5: The Serpent's Curse,tbd
+75,Super Ultra Dead Rising 3' Arcade Remix Hyper Edition EX Plus Alpha,6.0
+75,Call of Duty: Advanced Warfare - Ascendance,6.9
+75,World of Tanks,6.6
+75,Destiny,5.5
+75,Resident Evil: Revelations 2,8.1
+75,Sleeping Dogs: Definitive Edition,7.0
+75,Tachyon Project,tbd
+74,Evolve,5.1
+74,Resident Evil: Revelations 2 - Episode 2: Contemplation,8.4
+74,Dance Central Spotlight,7.3
+74,The Escapists,7.3
+74,Life is Strange: Episode 4 - Dark Room,8.5
+74,Resident Evil: Revelations 2 - Episode 4: Metamorphosis,8.4
+74,Roundabout,tbd
+74,Shadow Warrior,8.3
+74,Dying Light,7.8
+74,LEGO Batman 3: Beyond Gotham,7.1

@@ -1,0 +1,100 @@
+93,Super Mario 3D World,9.0
+92,Super Smash Bros. for Wii U,8.9
+92,Rayman Legends,8.6
+91,Bayonetta 2,9.0
+90,The Legend of Zelda: The Wind Waker HD,9.0
+90,Mario Kart 8 DLC Pack 2,9.2
+90,Guacamelee! Super Turbo Championship Edition,7.3
+89,Skylanders Swap Force,6.0
+89,Super Mario Maker,9.4
+88,Deus Ex: Human Revolution - Director's Cut,8.3
+88,Mario Kart 8,9.1
+88,Shovel Knight,8.2
+87,Mario Kart 8 DLC Pack 1,9.2
+87,Pikmin 3,8.7
+86,Need for Speed: Most Wanted U,7.5
+86,Bayonetta,9.1
+85,Mass Effect 3: Special Edition,7.4
+85,Assassin's Creed III,7.1
+85,NBA 2K13,6.9
+85,Darksiders II,8.2
+85,Batman: Arkham City - Armored Edition,8.3
+85,Shantae and the Pirate's Curse,8.3
+84,Trine 2: Director's Cut,8.0
+84,Child of Light,8.5
+84,Mutant Mudds Deluxe,6.9
+84,Runbow,8.8
+84,Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien,7.9
+84,New Super Mario Bros. U,8.1
+83,Tekken Tag Tournament 2: Wii U Edition,7.9
+83,Star Wars Pinball,7.2
+83,CastleStorm,7.7
+83,SteamWorld Dig,8.0
+83,Donkey Kong Country: Tropical Freeze,8.9
+82,LEGO Marvel Super Heroes,8.0
+82,Monster Hunter 3 Ultimate,8.1
+82,Stealth Inc 2: A Game of Clones,8.2
+82,Art Academy: Home Studio,8.9
+82,Art of Balance,8.4
+81,Call of Duty: Black Ops II,6.7
+81,Splatoon,8.4
+81,Captain Toad: Treasure Tracker,8.6
+81,Stick it to the Man!,7.5
+81,Affordable Space Adventures,7.9
+80,Mighty Switch Force! Hyper Drive Edition,7.7
+80,Skylanders Giants,7.0
+80,LEGO City Undercover,8.2
+80,Resident Evil: Revelations,7.4
+80,Pushmo World,8.0
+79,Edge,7.4
+79,Teslagrad,8.0
+79,Little Inferno,7.4
+79,Scram Kitty and His Buddy on Rails,7.6
+78,Swords & Soldiers HD,6.3
+78,The Wonderful 101,8.5
+78,Sonic & All-Stars Racing Transformed,7.8
+78,Yoshi's Woolly World,8.0
+77,Nintendo Land,7.8
+77,LEGO Batman 2: DC Super Heroes,7.3
+77,RUSH,7.5
+77,ZombiU,7.7
+77,Dungeons & Dragons: Chronicles of Mystara,7.5
+77,New Super Luigi U,7.8
+77,Tetrobot and Co.,8.5
+76,Knytt Underground,7.5
+76,Nihilumbra,7.1
+76,Toki Tori 2,7.5
+76,Elliot Quest,6.9
+76,Your Shape: Fitness Evolved 2013,6.1
+76,Disney DuckTales Remastered,7.8
+76,Chariot,7.9
+76,Hyrule Warriors,8.3
+76,XType Plus,8.1
+75,Madden NFL 13,6.6
+75,Don't Starve: Giant Edition,8.1
+75,Spin the Bottle: Bumpie's Party,7.2
+75,Cloudberry Kingdom,6.9
+74,Swords & Soldiers II,8.7
+74,Paper Monsters Recut,8.3
+73,Ultratron,7.5
+73,Another World: 20th Anniversary Edition,7.9
+73,NES Remix 2,7.9
+73,Kirby and the Rainbow Curse,7.9
+73,Cosmophony,8.3
+73,Scribblenauts Unlimited,7.3
+72,Armillo,8.2
+72,Wii Fit U,7.6
+72,Just Dance 2014,7.7
+72,The Fall,8.1
+72,Unepic,7.6
+72,The Cave,7.1
+71,NES Remix,7.0
+71,Disney Infinity,7.6
+71,Scribblenauts Unmasked: A DC Comics Adventure,6.3
+71,Nano Assault Neo,7.3
+70,Mario vs. Donkey Kong: Tipping Stars,7.5
+70,Tengami,7.9
+70,Puddle,7.2
+69,Ninja Gaiden 3: Razor's Edge,7.4
+69,FIFA Soccer 13,6.0
+68,Squids Odyssey,6.2

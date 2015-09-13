@@ -1,0 +1,100 @@
+97,Grand Theft Auto V,8.2
+95,The Last of Us Remastered,8.9
+93,Metal Gear Solid V: The Phantom Pain,8.5
+93,Journey,8.3
+92,Bloodborne,8.6
+92,The Witcher 3: Wild Hunt,8.9
+91,Shovel Knight,7.5
+91,flower,7.3
+90,Diablo III: Ultimate Evil Edition,8.0
+90,Rayman Legends,8.4
+90,Fez,6.2
+89,Bastion,8.1
+89,Dragon Age: Inquisition,7.4
+89,Minecraft: PlayStation 4 Edition,6.3
+88,The Binding of Isaac: Rebirth,7.7
+87,Guacamelee! Super Turbo Championship Edition,7.5
+87,Batman: Arkham Knight,7.3
+87,TowerFall Ascension,6.8
+87,FIFA 14,6.3
+87,Dark Souls II: Scholar of the First Sin,8.0
+86,Velocity 2X,7.0
+86,Final Fantasy XIV Online: A Realm Reborn,6.6
+86,OlliOlli2: Welcome to Olliwood,6.6
+86,Resogun: Heroes,7.4
+85,Battlefield 4,6.8
+85,Rocket League,8.9
+85,NBA 2K14,6.5
+85,Final Fantasy XIV: Heavensward,7.9
+85,Resogun: Defenders,7.3
+85,Super Mega Baseball,7.9
+85,Rogue Legacy,7.6
+85,Geometry Wars 3: Dimensions,7.7
+85,Far Cry 4,7.7
+85,Tomb Raider: Definitive Edition,8.0
+84,Middle-earth: Shadow of Mordor,8.1
+84,Guilty Gear Xrd -SIGN-,8.0
+84,ZEN Pinball 2: South Park: Super-Sweet Pinball,6.7
+84,Axiom Verge,7.9
+84,Resogun,7.7
+84,Oddworld: Abe's Oddysee - New 'n' Tasty,8.0
+84,DmC: Devil May Cry Definitive Edition,7.2
+84,Trine 2: Complete Story,7.6
+84,Final Fantasy X / X-2 HD Remaster,7.9
+83,Assassin's Creed IV: Black Flag,7.8
+83,Disney Infinity 3.0 Edition,6.1
+83,Resident Evil HD Remaster,8.3
+83,Zen Pinball 2: Portal Pinball,6.0
+83,Transistor,8.2
+83,Madden NFL 16,6.1
+83,Metro Redux,8.0
+83,The Swapper,7.6
+83,LEGO Marvel Super Heroes,7.7
+83,Call of Duty: Advanced Warfare,5.6
+83,MLB 14: The Show,7.7
+83,Project CARS,6.5
+83,Mortal Kombat X,7.6
+83,NBA 2K15,6.9
+83,Tales From The Borderlands: Episode Three - Catch A Ride,7.5
+83,ZEN Pinball 2: The Walking Dead,6.3
+82,Tearaway Unfolded,8.0
+82,N++,6.5
+82,The Pinball Arcade,6.8
+82,Borderlands: The Handsome Collection,7.7
+82,Galak-Z: The Dimensional,7.3
+82,Pro Evolution Soccer 2015,7.2
+82,Skullgirls: 2nd Encore,6.5
+82,Sportsfriends,6.3
+82,Child of Light,8.0
+82,SteamWorld Dig,7.3
+82,PixelJunk Shooter Ultimate,7.1
+82,FIFA 15,5.7
+82,ZEN Pinball 2,7.0
+81,Madden NFL 15,6.1
+81,Helldivers,8.3
+81,Life is Strange: Episode 3 - Chaos Theory,8.2
+81,Broken Age,7.7
+81,Nobunaga's Ambition: Sphere of Influence,7.8
+81,Tales From The Borderlands: Episode Two - Atlas Mugged,7.6
+81,God of War III Remastered,7.7
+80,Watch Dogs,6.2
+80,Brothers: A Tale of Two Sons,8.2
+80,Pix the Cat,6.2
+80,Injustice: Gods Among Us - Ultimate Edition,7.2
+80,MLB 15: The Show,7.8
+80,Life is Strange: Episode 4 - Dark Room,8.2
+80,The Vanishing of Ethan Carter,7.7
+80,Tales From The Borderlands: Episode One - Zer0 Sum,8.2
+80,Need for Speed: Rivals,6.2
+80,Star Wars Pinball: Heroes Within,5.3
+80,inFamous: Second Son,7.9
+80,The Evil Within: The Assignment,8.3
+80,King's Quest Chapter 1: A Knight to Remember,7.3
+80,Grim Fandango Remastered,7.9
+80,Until Dawn,8.1
+79,Wolfenstein: The New Order,8.1
+79,Skylanders Swap Force,5.3
+79,LittleBigPlanet 3,7.1
+79,Alien: Isolation,8.1
+79,Trials Fusion,7.3
+79,Hand of Fate,8.0

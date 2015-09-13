@@ -1,0 +1,100 @@
+96,Half-Life 2,9.2
+96,Grand Theft Auto V,7.8
+96,The Orange Box,9.4
+96,Half-Life,9.1
+96,BioShock,8.4
+95,Baldur's Gate II: Shadows of Amn,9.3
+95,Portal 2,8.8
+94,The Elder Scrolls V: Skyrim,8.0
+94,Mass Effect 2,8.7
+94,Grand Theft Auto: Vice City,8.8
+94,Civilization II,9.1
+94,Quake,8.8
+94,BioShock Infinite,8.5
+94,The Witcher 3: Wild Hunt,9.2
+94,The Elder Scrolls IV: Oblivion,8.0
+94,Grim Fandango,9.1
+94,Diablo,8.7
+94,Sid Meier's Civilization IV,8.2
+93,Company of Heroes,8.9
+93,Unreal Tournament 2004,8.9
+93,Starcraft II: Wings of Liberty,8.2
+93,Minecraft,7.4
+93,Homeworld,9.2
+93,Grand Theft Auto III,8.4
+93,Star Wars: Knights of the Old Republic,9.0
+93,World of Warcraft,7.2
+93,Grand Theft Auto: San Andreas,8.8
+92,Call of Duty 4: Modern Warfare,8.5
+92,Warcraft III: Reign of Chaos,9.0
+92,The Sims,7.8
+92,Sid Meier's Gettysburg!,7.3
+92,World Soccer Winning Eleven 7 International,7.9
+92,Team Fortress 2,9.2
+92,System Shock 2,9.1
+92,Tom Clancy's Splinter Cell: Chaos Theory,8.8
+92,Rome: Total War,9.1
+92,Thief: The Dark Project,9.1
+92,Age of Empires II: The Age of Kings,9.0
+92,Sid Meier's Alpha Centauri,9.2
+92,Unreal Tournament,9.1
+92,Galactic Civilizations II: Twilight of the Arnor,8.3
+92,Tiger Woods PGA Tour 2003,6.0
+91,Myth: The Fallen Lords,8.8
+91,Medal of Honor: Allied Assault,8.5
+91,Dishonored,8.3
+91,World of Warcraft: Wrath of the Lich King,7.3
+91,Baldur's Gate,9.0
+91,F1 Challenge '99-'02,8.3
+91,FreeSpace 2,8.9
+91,IL-2 Sturmovik,8.7
+91,Tom Clancy's Splinter Cell,8.6
+91,Crysis,8.0
+91,World of Warcraft: The Burning Crusade,7.8
+91,Star Wars Jedi Knight: Dark Forces II,8.6
+91,The Longest Journey,8.9
+91,Tony Hawk's Pro Skater 2,8.5
+91,Tiger Woods PGA Tour 2005,4.3
+91,Batman: Arkham Asylum,8.7
+91,Galactic Civilizations II: Dark Avatar,8.2
+91,The Operative: No One Lives Forever,9.0
+91,Battlefield 2,8.4
+91,Street Fighter IV,8.1
+91,Fallout 3,8.0
+91,Batman: Arkham City,8.6
+91,Fez,6.5
+91,Planescape: Torment,9.4
+91,Neverwinter Nights,8.1
+91,No One Lives Forever 2: A Spy in H.A.R.M.'s Way,8.7
+91,Dragon Age: Origins,8.6
+91,Mark of the Ninja,7.9
+91,Dark Souls II,7.1
+91,Call of Duty,8.5
+91,Madden NFL 2004,8.2
+90,The Sims 2,8.8
+90,World of Warcraft: Cataclysm,5.5
+90,World of Goo,8.5
+90,Black & White,7.7
+90,Spelunky,7.1
+90,Portal,9.4
+90,NHL 2001,6.8
+90,Deus Ex,9.3
+90,Tony Hawk's Pro Skater 3,8.6
+90,Half-Life 2: Episode Two,9.2
+90,Braid,8.6
+90,The Chronicles of Riddick: Escape From Butcher Bay - Developer's Cut,8.7
+90,Sid Meier's Civilization III,8.4
+90,Silent Hunter III,7.8
+90,Sid Meier's Civilization V,7.8
+90,Falcon 4.0: Allied Force,8.5
+90,Deus Ex: Human Revolution,8.4
+90,Flight Simulator 2002,8.4
+90,Brothers: A Tale of Two Sons,8.6
+90,Dota 2,6.4
+90,Guild Wars 2,7.9
+90,Freedom Force,7.9
+90,GTR 2,8.7
+90,Grand Theft Auto IV,6.4
+90,Total War: Shogun 2,8.3
+90,Empire: Total War,6.9
+90,Command & Conquer: Red Alert,8.9
