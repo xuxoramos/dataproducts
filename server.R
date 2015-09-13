@@ -18,15 +18,13 @@ ratingspc <- read.csv('./metacriticdata-pc.txt', header = F)
 ratingspc <- ratingspc %>% mutate(Platform='PC')
 
 ratings <- rbind(ratingps4,ratingsxbone,ratingswiiu,ratingspc)
-setnames(ratings, 'V1', 'CriticRating')
-setnames(ratings, 'V2', 'GameName')
-setnames(ratings, 'V3', 'UserRating')
+names(ratings) <- c('CriticRating', 'GameName', 'UserRating', 'Platform')
 ratings <- ratings %>% mutate(CriticRating=round(CriticRating/10,2))
 ratings <- ratings %>% filter(UserRating!='tbd')
 ratings <- ratings %>% mutate(CriticRating=as.numeric(CriticRating), UserRating=as.numeric(UserRating))
 platforms <- c('All',unique(ratings$Platform))
 
-server <- function(input, output) {
+server <- function(input, output, session) {
       output$ratingsPlot <- renderChart({
               np<- rPlot(CriticRating ~ UserRating, color='Platform', data=ratingByPlatform(), type='point',
                          tooltip = "#! function(item) {return 'Game: ' + item.GameName + ', User rating: ' + item.UserRating + ', Critics rating: ' + item.CriticRating} !#")
@@ -38,6 +36,12 @@ server <- function(input, output) {
               return(np)
       })
       
+      observe({
+              # This will change the value of input$partnerName to searchResult()[,1]
+              updateSelectInput(session, "selectedPlatform",
+                              choices = platforms)
+      })
+            
       dynColor <- reactive({
               col <- 'Platform'
               switch(input$selectedPlatform,
