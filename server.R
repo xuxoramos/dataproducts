@@ -13,8 +13,13 @@ server <- function(input, output, session) {
               np$addParams(dom="ratingsPlot")
               np$layer(y = '_fitted', copy_layer = T, type = 'line',
                        color = dynColor(), data=ratingByPlatform())
-              np$set(legendPosition = 'right')
+              np$set(legendPosition = 'bottom')
               return(np)
+      })
+
+      output$ratingsNvd3Plot <- renderChart2({
+              p<- nPlot(CriticRating ~ UserRating, group=dynColor(), data=ratingByPlatform(), type='scatterChart')
+              return(p)
       })
       
       observe({
@@ -23,6 +28,12 @@ server <- function(input, output, session) {
                               choices = platforms)
       })
 
+      observe({
+              # This will change the value of input$partnerName to searchResult()[,1]
+              updateSelectInput(session, "selectedPlatform4Prediction",
+                                choices = platforms)
+      })
+      
       dynColor <- reactive({
               col <- 'Platform'
               switch(input$selectedPlatform,
