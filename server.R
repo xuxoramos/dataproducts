@@ -4,35 +4,16 @@ library(ggplot2)
 library(dplyr)
 library(rCharts)
 
-# Data loading, cleaning and processing
-ratingps4 <- read.csv('./metacriticdata-ps4.txt', header = F)
-ratingps4 <- ratingps4 %>% mutate(Platform='PS4')
-
-ratingsxbone <- read.csv('./metacriticdata-xbone.txt', header = F)
-ratingsxbone <- ratingsxbone %>% mutate(Platform='XBoxOne')
-
-ratingswiiu <- read.csv('./metacriticdata-wiiu.txt', header = F)
-ratingswiiu <- ratingswiiu %>% mutate(Platform='WiiU')
-
-ratingspc <- read.csv('./metacriticdata-pc.txt', header = F)
-ratingspc <- ratingspc %>% mutate(Platform='PC')
-
-ratings <- rbind(ratingps4,ratingsxbone,ratingswiiu,ratingspc)
-names(ratings) <- c('CriticRating', 'GameName', 'UserRating', 'Platform')
-ratings <- ratings %>% mutate(CriticRating=round(CriticRating/10,2))
-ratings <- ratings %>% filter(UserRating!='tbd')
-ratings <- ratings %>% mutate(CriticRating=as.numeric(CriticRating), UserRating=as.numeric(UserRating))
-platforms <- c('All',unique(ratings$Platform))
-
 server <- function(input, output, session) {
-      output$ratingsPlot <- renderChart({
-              np<- rPlot(CriticRating ~ UserRating, color='Platform', data=ratingByPlatform(), type='point',
-                         tooltip = "#! function(item) {return 'Game: ' + item.GameName + ', User rating: ' + item.UserRating + ', Critics rating: ' + item.CriticRating} !#")
+      output$ratingsPlot <- renderChart3({
+              np<- rPlot(CriticRating ~ UserRating, color=dynColor(), data=ratingByPlatform(), type='point',
+                         tooltip = "#! function(item) {return 'Game: ' + item.GameName + '\\n User rating: ' + item.UserRating + '\\n Critics rating: ' + item.CriticRating} !#")
               np$set(width = 600, height = 600)
-              np$guides(y = list(min = 6.5, max = 10), x = list(min = 4, max = 10))
+              np$guides(y = list(min = 6.5, max = 10, title='Critic Rating'), x = list(min = 4, max = 10, title='User Rating'))
               np$addParams(dom="ratingsPlot")
               np$layer(y = '_fitted', copy_layer = T, type = 'line',
-                       color = list(const = 'black'))
+                       color = dynColor(), data=ratingByPlatform())
+              np$set(legendPosition = 'right')
               return(np)
       })
       
@@ -41,7 +22,7 @@ server <- function(input, output, session) {
               updateSelectInput(session, "selectedPlatform",
                               choices = platforms)
       })
-            
+
       dynColor <- reactive({
               col <- 'Platform'
               switch(input$selectedPlatform,
@@ -55,7 +36,7 @@ server <- function(input, output, session) {
       
       ratingByPlatform <- reactive({
               if (input$selectedPlatform == 'All') {
-                      dat <- fortify(lm(CriticRating ~ UserRating, ratings))
+                      dat <- fortify(lm(CriticRating ~ UserRating * Platform, ratings))
                       dat$GameName <- ratings$GameName
                       dat$Platform <- ratings$Platform
                       names(dat) <- gsub('\\.', '_', names(dat))
@@ -72,5 +53,4 @@ server <- function(input, output, session) {
       })
       
       output$selectedPlatform <- renderText(input$selectedPlatform)
-      output$table <- renderPrint(ratingByPlatform())
 }

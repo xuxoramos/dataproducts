@@ -3,11 +3,16 @@ library(shiny)
 library(rCharts)
 
 ui <- fluidPage(
-        headerPanel('Game Ratings in Metacritic'),
-        sidebarPanel(
-                h2('Controls'),
-                selectInput(inputId='selectedPlatform', label='Choose platform', choices = c('All'))
-        ),
-        mainPanel('Plot shows user ratings vs critic ratings.',
-                  showOutput('ratingsPlot', lib = 'polycharts'))
+        titlePanel('Game Ratings vs User Ratings in Metacritic'),
+        sidebarLayout(
+                sidebarPanel(
+                        helpText("Select the platform for which to display game ratings in the plot. We'll also display a regression line for each platform selected, including one for all platforms."),
+                        selectInput(inputId='selectedPlatform', 
+                                    label='Choose platform', choices = c('All')),
+                        img(src='Metacritic.svg.png', width=100, height=100)
+                ),
+                mainPanel(
+                        showOutput('ratingsPlot', lib = 'polycharts')
+                )
+        )
 )
