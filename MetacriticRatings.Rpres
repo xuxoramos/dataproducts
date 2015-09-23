@@ -1,0 +1,91 @@
+<style>
+.reveal h1, .reveal h2, .reveal h3 {
+  word-wrap: normal;
+  -moz-hyphens: none;
+}
+
+.small-code pre code {
+  font-size: 15.5px;
+}
+
+.footer {
+    color: black; background: #E8E8E8;
+    position: fixed; top: 90%;
+    text-align:center; width:100%;
+}
+
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.footer {
+    color: black; background: #E8E8E8;
+    position: fixed; top: 50%;
+    text-align:left; width:100%;
+}
+</style>
+
+MetacriticRatings - User vs Critic
+===
+author: Jesus Ramos
+date: `r format(Sys.Date(), format="%B %d %Y")`
+transition: rotate
+<div class="midcenter" style="background-color:transparent; border:0px; box-shadow:none; margin-left:-100px; margin-top:-120px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Metacritic.svg/2000px-Metacritic.svg.png"></img>
+</div>
+
+Motivation & Business Question
+===
+1. Video games are now deeply embedded in western culture.
+2. VG industry is now a whopping $18bn (2011).
+3. Most titles are aimed at a predominantly young male audience.
+4. This represents a barrier of entry for more 'art house' or 'conceptual' titles.
+5. Ratings from critics offer a counterweight for these titles.
+
+## Question
+> Do ratings from users reliably predict ratings from critics?
+
+Methodology
+===
+1. Gather and clean data from Metacritic website for the top-rated 100 VGs of all time for all 4th-gen platforms (PC, PS4, XBoxOne, WiiU).
+2. Explore the relationship between critics' and users' ratings via a linear model.
+3. Try to predict the rating from critics of a new game for a given platform given a user rating.
+
+Linear Plot and Model
+===
+class: small-code
+left: 40%
+```{r, echo=F, fig.width=6, fig.height=5}
+library(ggplot2)
+library(dplyr)
+# Data loading, cleaning and processing
+ratingps4 <- read.csv('./metacriticdata-ps4.txt', header = F)
+ratingps4 <- ratingps4 %>% mutate(Platform='PS4')
+
+ratingsxbone <- read.csv('./metacriticdata-xbone.txt', header = F)
+ratingsxbone <- ratingsxbone %>% mutate(Platform='XBoxOne')
+
+ratingswiiu <- read.csv('./metacriticdata-wiiu.txt', header = F)
+ratingswiiu <- ratingswiiu %>% mutate(Platform='WiiU')
+
+ratingspc <- read.csv('./metacriticdata-pc.txt', header = F)
+ratingspc <- ratingspc %>% mutate(Platform='PC')
+
+ratings <- rbind(ratingps4,ratingsxbone,ratingswiiu,ratingspc)
+names(ratings) <- c('CriticRating', 'GameName', 'UserRating', 'Platform')
+ratings <- ratings %>% mutate(CriticRating=round(CriticRating/10,2))
+ratings <- ratings %>% filter(UserRating!='tbd')
+ratings <- ratings %>% mutate(CriticRating=as.numeric(CriticRating), UserRating=as.numeric(UserRating))
+platforms <- c('All',unique(ratings$Platform))
+qplot(x=UserRating, y=CriticRating, data=ratings, color=Platform, geom=c('point','smooth'), method='lm',xlab="Users' Rating", ylab="Critics' Rating")
+```
+
+***
+```{r, echo=F}
+lmRatings <- lm(CriticRating ~ UserRating * Platform, ratings)
+round(summary(lmRatings)$coef[,-3],2)
+```
