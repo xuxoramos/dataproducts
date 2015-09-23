@@ -20,6 +20,7 @@ ui <- fluidPage(
                 ),
                 mainPanel(
                         showOutput('ratingsPlot', lib = 'polycharts'),
+                        p(),
                         showOutput('ratingsNvd3Plot', lib = 'nvd3')
                 )
         )

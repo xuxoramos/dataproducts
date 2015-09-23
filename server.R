@@ -19,6 +19,11 @@ server <- function(input, output, session) {
 
       output$ratingsNvd3Plot <- renderChart2({
               p<- nPlot(CriticRating ~ UserRating, group=dynColor(), data=ratingByPlatform(), type='scatterChart')
+              p$params$width <- 600
+              p$params$height <- 600
+              p$chart(size = 100)
+              p$chart(showControls = FALSE)
+              p$chart(tooltipContent = "#! function(key, x, y, e) {return e.point.GameName} !#")
               return(p)
       })
       
@@ -62,6 +67,5 @@ server <- function(input, output, session) {
                       return(dat)
               }
       })
-      
       output$selectedPlatform <- renderText(input$selectedPlatform)
 }
