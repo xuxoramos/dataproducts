@@ -22,3 +22,7 @@ ratings <- ratings %>% mutate(CriticRating=round(CriticRating/10,2))
 ratings <- ratings %>% filter(UserRating!='tbd')
 ratings <- ratings %>% mutate(CriticRating=as.numeric(CriticRating), UserRating=as.numeric(UserRating))
 platforms <- c('All',unique(ratings$Platform))
+
+# Linear Models
+lmRatings <- lm(CriticRating ~ UserRating, ratings)
+lmRatingsByPlat <- lm(CriticRating ~ UserRating * Platform, ratings)

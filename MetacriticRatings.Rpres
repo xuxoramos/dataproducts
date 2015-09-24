@@ -5,7 +5,7 @@
 }
 
 .small-code pre code {
-  font-size: 15.5px;
+  font-size: 15px;
 }
 
 .footer {
@@ -34,8 +34,8 @@ MetacriticRatings - User vs Critic
 author: Jesus Ramos
 date: `r format(Sys.Date(), format="%B %d %Y")`
 transition: rotate
-<div class="midcenter" style="background-color:transparent; border:0px; box-shadow:none; margin-left:-100px; margin-top:-120px;">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Metacritic.svg/2000px-Metacritic.svg.png"></img>
+<div class="midcenter" style="background-color:transparent; border:0px; box-shadow:none; margin-left:-480px; margin-top:0px;">
+<img src="./MetacriticRatings-figure/metacritic_applenapps.png"></img>
 </div>
 
 Motivation & Business Question
@@ -57,9 +57,9 @@ Methodology
 
 Linear Plot and Model
 ===
+left: 60%
 class: small-code
-left: 40%
-```{r, echo=F, fig.width=6, fig.height=5}
+```{r, echo=F, fig.width=6, fig.height=5, fig.align='center'}
 library(ggplot2)
 library(dplyr)
 # Data loading, cleaning and processing
@@ -81,11 +81,21 @@ ratings <- ratings %>% mutate(CriticRating=round(CriticRating/10,2))
 ratings <- ratings %>% filter(UserRating!='tbd')
 ratings <- ratings %>% mutate(CriticRating=as.numeric(CriticRating), UserRating=as.numeric(UserRating))
 platforms <- c('All',unique(ratings$Platform))
-qplot(x=UserRating, y=CriticRating, data=ratings, color=Platform, geom=c('point','smooth'), method='lm',xlab="Users' Rating", ylab="Critics' Rating")
-```
 
-***
-```{r, echo=F}
-lmRatings <- lm(CriticRating ~ UserRating * Platform, ratings)
-round(summary(lmRatings)$coef[,-3],2)
+# Linear models
+lmRatingsByPlat <- lm(CriticRating ~ UserRating * Platform, ratings)
+lmRatings <- lm(CriticRating ~ UserRating, ratings)
+
+# Plot
+qplot(x=UserRating, y=CriticRating, data=ratings, color=Platform, geom=c('point','smooth'), method='lm',xlab="Users' Rating", ylab="Critics' Rating") + geom_line(x=ratings$UserRating, y=lmRatings$fitted.values, color=I('black'))
+
+round(summary(lmRatingsByPlat)$coef[,-3],2)
 ```
+***
+<font size="5">According to the figures, every 1-point increment in user ratings brings a *`r round(coef(lmRatings)[2],2)`* increase in critic ratings. Though this relationship is very significant at a p-value of *`r round(summary(lmRatings)$coeff[2,4],2)`*, it only explains *`r round(summary(lmRatings)$r.squared*100,2)`%* of the variance. However, if we control for platform we can account for *`r round(summary(lmRatingsByPlat)$r.squared*100,2)`%* of the variance, but then the only good predictor between ratings is for WiiU.</font>
+
+Conclusion & Pitch
+===
+1. Even though the prediction for platforms other than WiiU may not be so reliable, it is nonetheless interesting to observe how for more 'hardcore' platforms users give a wider range of ratings than critics, while for more 'family-friendly' platforms users and critics are more consistent.
+2. To explore this relationship, the difference in ratings for the titles, and to estimate a critic rating from a user rating (regardless of the confidence on the prediction) for a new game, we have developed a Shiny app.
+3. The Shiny app can be found *[here](https://jsramos.shinyapps.io/dataproducts)*. We submit it for your consideration. Enjoy!
