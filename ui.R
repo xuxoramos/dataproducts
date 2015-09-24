@@ -12,16 +12,13 @@ ui <- fluidPage(
                         selectInput(inputId='selectedPlatform', 
                                     label='Choose platform', choices = c('All')),
                         h3('Predict rating from critics'),
-                        helpText("To predict the critic's rating for a new game, select a user's rating. The platform will be taken from the selected one. If 'All' is selected, the platform will not be considered for the prediction and this will be fitted to the entire cloud of data."),
+                        helpText("To predict the critic's rating for a new game, select a user's rating. The platform will be taken from the selected one above. If 'All' is selected, the platform will not be considered for the prediction. The predicted rating will appear as a black dot along the regression line."),
                         sliderInput(inputId='userRating', label = "User's rating for prediction",min = 4.0, max=10.0, step=0.2, value=6.0),
-                        actionButton(inputId='predict', label = 'Predict Critic Rating'),
                         img(src='metacritic_applenapps.png', width=230)
                 ),
                 mainPanel(
                         showOutput('ratingsPlot', lib = 'polycharts'),
-                        textOutput('prediction')
-                        #p()
-                        #showOutput('ratingsNvd3Plot', lib = 'nvd3')
+                        h3(strong(textOutput('prediction')))
                 )
         )
 )
