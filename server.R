@@ -11,21 +11,25 @@ server <- function(input, output, session) {
               np$set(width = 600, height = 600)
               np$guides(y = list(min = 6.5, max = 10, title='Critic Rating'), x = list(min = 4, max = 10, title='User Rating'))
               np$addParams(dom="ratingsPlot")
-              np$layer(y = '_fitted', copy_layer = T, type = 'line',
+              np$layer(y = 'fittedByPlat', copy_layer = T, type = 'line',
                        color = dynColor(), data=ratingByPlatform())
               np$set(legendPosition = 'bottom')
+              if (input$selectedPlatform == 'All') {
+                      np$layer(y = 'fittedAll', copy_layer = T, type = 'line',
+                               color = list(const='black'), data=ratingByPlatform(), size = list(const = 3))
+              }
               return(np)
       })
 
-      output$ratingsNvd3Plot <- renderChart2({
-              p<- nPlot(CriticRating ~ UserRating, group=dynColor(), data=ratingByPlatform(), type='scatterChart')
-              p$params$width <- 600
-              p$params$height <- 600
-              p$chart(size = 100)
-              p$chart(showControls = FALSE)
-              p$chart(tooltipContent = "#! function(key, x, y, e) {return e.point.GameName} !#")
-              return(p)
-      })
+#      output$ratingsNvd3Plot <- renderChart2({
+#              p<- nPlot(CriticRating ~ UserRating, group=dynColor(), data=ratingByPlatform(), type='scatterChart')
+#              p$params$width <- 600
+#              p$params$height <- 600
+#              p$chart(size = 100)
+#              p$chart(showControls = FALSE)
+#              p$chart(tooltipContent = "#! function(key, x, y, e) {return e.point.GameName} !#")
+#              return(p)
+#      })
       
       observe({
               # This will change the value of input$partnerName to searchResult()[,1]
@@ -42,30 +46,30 @@ server <- function(input, output, session) {
       dynColor <- reactive({
               col <- 'Platform'
               switch(input$selectedPlatform,
-                     PS4={col <- list(const='blue')},
-                     XBoxOne={col <- list(const='green')},
-                     WiiU={col <- list(const='purple')},
-                     PC={col <- list(const='red')}
+                     PS4={col <- list(const='#4A8CBC')},
+                     XBoxOne={col <- list(const='#A460A8')},
+                     WiiU={col <- list(const='#58B768')},
+                     PC={col <- list(const='#E91937')}
                      )
               return(col)
       })
       
       ratingByPlatform <- reactive({
               if (input$selectedPlatform == 'All') {
-                      dat <- fortify(lm(CriticRating ~ UserRating * Platform, ratings))
+                      dat <- data.frame(UserRating=ratings$UserRating, CriticRating=ratings$CriticRating)
+                      dat$fittedByPlat <- lmRatingsByPlat$fitted.values
                       dat$GameName <- ratings$GameName
                       dat$Platform <- ratings$Platform
-                      names(dat) <- gsub('\\.', '_', names(dat))
+                      dat$fittedAll <- lmRatings$fitted.values
                       return(dat)
               }
               else {
-                      tempRatings <- ratings %>% filter(Platform == input$selectedPlatform)
-                      dat <- fortify(lm(CriticRating ~ UserRating, tempRatings))
-                      dat$GameName <- tempRatings$GameName
-                      dat$Platform <- tempRatings$Platform
-                      names(dat) <- gsub('\\.', '_', names(dat))
+                      dat <- ratings %>% filter(Platform == input$selectedPlatform)
+                      dat$fittedByPlat <- lm(CriticRating ~ UserRating, dat)$fitted.values
                       return(dat)
               }
       })
       output$selectedPlatform <- renderText(input$selectedPlatform)
+      output$prediction <- renderText(predict(lmRatings, newdata = data.frame(CriticRating=input$userRating)))
 }
+

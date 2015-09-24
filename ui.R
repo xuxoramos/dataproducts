@@ -8,20 +8,20 @@ ui <- fluidPage(
         sidebarLayout(
                 sidebarPanel(
                         h3('Top 100 of all time'),
-                        helpText("Select the platform for which to display game ratings in the plot. We'll also display a regression line for each platform selected."),
+                        helpText("Select the platform for which to display game ratings in the plot. We'll also display a regression line for each platform selected and one across all platforms in black."),
                         selectInput(inputId='selectedPlatform', 
                                     label='Choose platform', choices = c('All')),
                         h3('Predict rating from critics'),
-                        helpText("To predict the critic's rating for a new game, select a user's rating and its platform"),
-                        sliderInput(inputId='userRating', label = "User's rating for prediction",min = 0.0, max=10.0, step=0.2, value=6.0),
-                        selectInput(inputId='selectedPlatform4Prediction', 
-                                    label='Choose platform for prediction', choices = c('All')),
-                        img(src='Metacritic.svg.png', width=100, height=100)
+                        helpText("To predict the critic's rating for a new game, select a user's rating. The platform will be taken from the selected one. If 'All' is selected, the platform will not be considered for the prediction and this will be fitted to the entire cloud of data."),
+                        sliderInput(inputId='userRating', label = "User's rating for prediction",min = 4.0, max=10.0, step=0.2, value=6.0),
+                        actionButton(inputId='predict', label = 'Predict Critic Rating'),
+                        img(src='metacritic_applenapps.png', width=230)
                 ),
                 mainPanel(
                         showOutput('ratingsPlot', lib = 'polycharts'),
-                        p(),
-                        showOutput('ratingsNvd3Plot', lib = 'nvd3')
+                        textOutput('prediction')
+                        #p()
+                        #showOutput('ratingsNvd3Plot', lib = 'nvd3')
                 )
         )
 )
