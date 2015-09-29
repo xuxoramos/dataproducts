@@ -17,10 +17,13 @@ ratingspc <- read.csv('./metacriticdata-pc.txt', header = F)
 ratingspc <- ratingspc %>% mutate(Platform='PC')
 
 ratings <- rbind(ratingps4,ratingsxbone,ratingswiiu,ratingspc)
+
 names(ratings) <- c('CriticRating', 'GameName', 'UserRating', 'Platform')
+
 ratings <- ratings %>% mutate(CriticRating=round(CriticRating/10,2))
 ratings <- ratings %>% filter(UserRating!='tbd')
 ratings <- ratings %>% mutate(CriticRating=as.numeric(CriticRating), UserRating=as.numeric(UserRating))
+
 platforms <- c('All',unique(ratings$Platform))
 
 # Linear Models

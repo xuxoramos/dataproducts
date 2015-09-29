@@ -1,0 +1,501 @@
+
+
+98
+Grand Theft Auto IV
+User: 7.4
+Apr 29, 2008
+2.
+97
+Grand Theft Auto V
+User: 8.2
+Sep 17, 2013
+3.
+96
+Uncharted 2: Among Thieves
+User: 8.8
+Oct 13, 2009
+4.
+96
+Batman: Arkham City
+User: 8.6
+Oct 18, 2011
+5.
+95
+LittleBigPlanet
+User: 6.7
+Oct 27, 2008
+6.
+95
+Red Dead Redemption
+User: 8.8
+May 18, 2010
+7.
+95
+The Last of Us
+User: 9.1
+Jun 14, 2013
+8.
+95
+Portal 2
+User: 8.3
+Apr 19, 2011
+9.
+94
+BioShock Infinite
+User: 8.5
+Mar 26, 2013
+10.
+94
+Call of Duty: Modern Warfare 2
+User: 6.2
+Nov 10, 2009
+11.
+94
+Call of Duty 4: Modern Warfare
+User: 8.4
+Nov 5, 2007
+12.
+94
+BioShock
+User: 8.7
+Oct 21, 2008
+13.
+94
+Mass Effect 2
+User: 8.4
+Jan 18, 2011
+14.
+94
+Street Fighter IV
+User: 7.3
+Feb 17, 2009
+15.
+94
+Metal Gear Solid 4: Guns of the Patriots
+User: 8.7
+Jun 12, 2008
+16.
+93
+The Elder Scrolls IV: Oblivion
+User: 7.9
+Mar 20, 2007
+17.
+93
+Braid
+User: 7.7
+Nov 12, 2009
+18.
+93
+Mass Effect 3
+User: 5.4
+Mar 6, 2012
+19.
+92
+The Elder Scrolls V: Skyrim
+User: 6.3
+Nov 11, 2011
+20.
+92
+God of War III
+User: 8.7
+Mar 16, 2010
+21.
+92
+Uncharted 3: Drake's Deception
+User: 8.3
+Nov 1, 2011
+22.
+92
+Super Street Fighter IV
+User: 7.7
+Apr 27, 2010
+23.
+92
+Rock Band
+User: 8.3
+Nov 20, 2007
+24.
+92
+Journey
+User: 8.8
+Mar 13, 2012
+25.
+92
+The ICO & Shadow of the Colossus Collection
+User: 8.5
+Sep 27, 2011
+26.
+91
+Pac-Man Championship Edition DX
+User: 8.0
+Nov 23, 2010
+27.
+91
+Rock Band 2
+User: 7.7
+Oct 19, 2008
+28.
+91
+LittleBigPlanet 2
+User: 8.3
+Jan 18, 2011
+29.
+91
+Rock Band 3
+User: 7.8
+Oct 26, 2010
+30.
+91
+FIFA Soccer 10
+User: 7.4
+Oct 20, 2009
+31.
+91
+Assassin's Creed II
+User: 8.6
+Nov 17, 2009
+32.
+91
+Peggle
+User: 7.4
+Nov 19, 2009
+33.
+91
+Borderlands 2
+User: 8.2
+Sep 18, 2012
+34.
+91
+MLB 10: The Show
+User: 8.2
+Mar 2, 2010
+35.
+91
+God of War Collection
+User: 8.7
+Nov 17, 2009
+36.
+91
+Killzone 2
+User: 8.1
+Feb 27, 2009
+37.
+91
+Batman: Arkham Asylum
+User: 8.9
+Aug 25, 2009
+38.
+91
+Rayman Legends
+User: 8.7
+Sep 3, 2013
+39.
+91
+Dark Souls II
+User: 8.2
+Mar 11, 2014
+40.
+90
+NBA 2K12
+User: 6.6
+Oct 4, 2011
+41.
+90
+Far Cry 3
+User: 8.5
+Dec 4, 2012
+42.
+90
+FIFA Soccer 12
+User: 7.1
+Sep 27, 2011
+43.
+90
+Fallout 3
+User: 8.0
+Oct 28, 2008
+44.
+90
+MLB 11: The Show
+User: 7.7
+Mar 8, 2011
+45.
+90
+MLB 09: The Show
+User: 7.9
+Mar 3, 2009
+46.
+90
+Assassin's Creed: Brotherhood
+User: 8.2
+Nov 16, 2010
+47.
+90
+Okami HD
+User: 8.8
+Oct 30, 2012
+48.
+90
+LIMBO
+User: 7.8
+Jul 19, 2011
+49.
+90
+NBA 2K13
+User: 7.9
+Oct 2, 2012
+50.
+89
+Wipeout HD Fury
+User: 8.3
+Jul 23, 2009
+51.
+89
+XCOM: Enemy Unknown
+User: 8.2
+Oct 9, 2012
+52.
+89
+Demon's Souls
+User: 8.8
+Oct 6, 2009
+53.
+89
+Need for Speed: Hot Pursuit
+User: 7.1
+Nov 16, 2010
+54.
+89
+FIFA Soccer 11
+User: 8.0
+Sep 28, 2010
+55.
+89
+Deus Ex: Human Revolution
+User: 8.2
+Aug 23, 2011
+56.
+89
+L.A. Noire
+User: 7.6
+May 17, 2011
+57.
+89
+Dishonored
+User: 7.8
+Oct 9, 2012
+58.
+89
+Metal Gear Solid HD Collection
+User: 9.0
+Nov 8, 2011
+59.
+89
+Dead Space 2
+User: 8.3
+Jan 25, 2011
+60.
+89
+Ratchet & Clank Future: Tools of Destruction
+User: 8.8
+Oct 23, 2007
+61.
+89
+The Orange Box
+User: 8.4
+Dec 11, 2007
+62.
+89
+NBA 2K11
+User: 7.4
+Oct 5, 2010
+63.
+89
+Dark Souls
+User: 8.7
+Oct 4, 2011
+64.
+88
+The Beatles: Rock Band
+User: 8.5
+Sep 9, 2009
+65.
+88
+NHL 11
+User: 7.0
+Sep 7, 2010
+66.
+88
+Dead Space
+User: 8.8
+Oct 13, 2008
+67.
+88
+NHL 09
+User: 7.6
+Sep 9, 2008
+68.
+88
+NHL 10
+User: 7.6
+Sep 15, 2009
+69.
+88
+Uncharted: Drake's Fortune
+User: 8.1
+Nov 16, 2007
+70.
+88
+Assassin's Creed IV: Black Flag
+User: 8.1
+Oct 29, 2013
+71.
+88
+Battlefield: Bad Company 2
+User: 8.5
+Mar 2, 2010
+72.
+88
+The Last of Us: Left Behind
+User: 8.2
+Feb 14, 2014
+73.
+88
+Ninja Gaiden Sigma
+User: 7.5
+Jul 3, 2007
+74.
+88
+Call of Duty: Black Ops
+User: 6.3
+Nov 9, 2010
+75.
+88
+BioShock 2
+User: 8.2
+Feb 9, 2010
+76.
+88
+Fight Night Round 4
+User: 7.5
+Jun 23, 2009
+77.
+88
+Battlefield: Bad Company 2 Vietnam
+User: 7.4
+Dec 21, 2010
+78.
+88
+Call of Duty: Modern Warfare 3
+User: 3.1
+Nov 8, 2011
+79.
+88
+FIFA Soccer 13
+User: 6.5
+Sep 25, 2012
+80.
+88
+The Walking Dead: Episode 5 - No Time Left
+User: 8.5
+Nov 20, 2012
+81.
+87
+Burnout Paradise
+User: 7.6
+Jan 22, 2008
+82.
+87
+GRID
+User: 8.0
+Jun 3, 2008
+83.
+87
+Super Street Fighter II Turbo HD Remix
+User: 7.8
+Nov 25, 2008
+84.
+87
+BlazBlue: Calamity Trigger
+User: 8.5
+Jun 30, 2009
+85.
+87
+Monkey Island 2 Special Edition: LeChuck's Revenge
+User: 8.4
+Jul 6, 2010
+86.
+87
+Red Dead Redemption: Undead Nightmare Pack
+User: 7.9
+Oct 26, 2010
+87.
+87
+FIFA Soccer 09
+User: 7.4
+Oct 13, 2008
+88.
+87
+DiRT 3
+User: 7.1
+May 24, 2011
+89.
+87
+Critter Crunch
+User: 7.3
+Oct 8, 2009
+90.
+87
+Max Payne 3
+User: 7.7
+May 15, 2012
+91.
+87
+The Walking Dead: Season Two Episode 5 - No Going Back
+User: 8.2
+Aug 26, 2014
+92.
+87
+Heavy Rain
+User: 7.6
+Feb 23, 2010
+93.
+87
+Tomb Raider
+User: 8.3
+Mar 5, 2013
+94.
+87
+The Walking Dead: Episode 3 - Long Road Ahead
+User: 7.8
+Aug 28, 2012
+95.
+87
+MLB 13: The Show
+User: 7.7
+Mar 5, 2013
+96.
+87
+Hotline Miami
+User: 8.2
+Jun 25, 2013
+97.
+87
+BlazBlue: Continuum Shift
+User: 8.0
+Jul 27, 2010
+98.
+87
+DiRT 2
+User: 8.0
+Sep 8, 2009
+99.
+87
+Dragon Age: Origins
+User: 7.9
+Nov 3, 2009
+100.
+87
+Bionic Commando Rearmed
+User: 7.7
+Aug 13, 2008
